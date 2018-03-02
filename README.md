@@ -1,8 +1,21 @@
 # Race Sentinel
+<p align="center">
+<a href="https://travis-ci.org/racecrypto/sentinel" alt="Build Status">
+<img src="https://travis-ci.org/racecrypto/sentinel?branch=master"/>
+</a>
+<a href="https://discord.racecrypto.com" alt="Discord">
+<img src="https://img.shields.io/discord/402827967111233546.svg"/>
+  </a>
+<a href="https://twitter.racecrypto.com" alt="Twitter">
+<img src="https://img.shields.io/twitter/follow/race_crypto.svg?style=social&label=Follow"/>
+</a>
+</p>
+<p align="center">
+  <a href="https://www.racecrypto.com">https://www.racecrypto.com</a> | <a href="https://explorer.racecrypto.com">Block Explorer</a> | <a href="https://ann.racecrypto.com">Announcement</a> | <a href="https://discord.racecrypto.com">Discord</a> | <a href="https://twitter.racecrypto.com">Twitter</a>
+</p>
 
-An all-powerful toolset for Race.
-
-[![Build Status](https://travis-ci.org/racecrypto/sentinel.svg?branch=master)](https://travis-ci.org/racecrypto/sentinel)
+## About 
+An all-powerful toolset & watchdog daemon for Race.
 
 Sentinel is an autonomous agent for persisting, processing and automating Race V12.1 governance objects and tasks, and for expanded functions in the upcoming Race releases.
 
