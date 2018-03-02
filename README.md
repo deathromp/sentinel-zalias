@@ -1,7 +1,7 @@
 # Race Sentinel
 <p align="center">
 <a href="https://travis-ci.org/racecrypto/sentinel" alt="Build Status">
-<img src="https://travis-ci.org/racecrypto/sentinel?branch=master"/>
+<img src="https://travis-ci.org/racecrypto/sentinel.svg?branch=master"/>
 </a>
 <a href="https://discord.racecrypto.com" alt="Discord">
 <img src="https://img.shields.io/discord/402827967111233546.svg"/>
