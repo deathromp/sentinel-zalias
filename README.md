@@ -1,17 +1,5 @@
 # Zalias Sentinel
 <p align="center">
-<a href="https://travis-ci.org/tecaxcrypto/sentinel" alt="Build Status">
-<img src="https://travis-ci.org/tecaxcrypto/sentinel.svg?branch=master"/>
-</a>
-<a href="https://discord.tecaxcrypto.com" alt="Discord">
-<img src="https://img.shields.io/discord/402827967111233546.svg"/>
-  </a>
-<a href="https://twitter.tecaxcrypto.com" alt="Twitter">
-<img src="https://img.shields.io/twitter/follow/tecax_crypto.svg?style=social&label=Follow"/>
-</a>
-</p>
-<p align="center">
-  <a href="https://www.tecaxcrypto.com">https://www.tecaxcrypto.com</a> | <a href="https://explorer.tecaxcrypto.com">Block Explorer</a> | <a href="https://ann.tecaxcrypto.com">Announcement</a> | <a href="https://discord.tecaxcrypto.com">Discord</a> | <a href="https://twitter.tecaxcrypto.com">Twitter</a>
 </p>
 
 ## About 
