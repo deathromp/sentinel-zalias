@@ -8,7 +8,7 @@ An all-powerful toolset & watchdog daemon for Zalias.
 
 Sentinel is an autonomous agent for persisting, processing and automating Zalias V12.1 governance objects and tasks, and for expanded functions in the upcoming Zalias releases.
 
-Sentinel is implemented as a Python application that binds to a local version 12.1 tecaxd instance on each Zalias Masternode.
+Sentinel is implemented as a Python application that binds to a local version 12.1 zaliasd instance on each Zalias Masternode.
 
 This guide covers installing Sentinel onto an existing 12.1 Masternode in Ubuntu 14.04 / 16.04.
 
@@ -29,7 +29,7 @@ Update system packages and ensure virtualenv is installed:
 
 Clone the Sentinel repo and install Python dependencies.
 
-    $ git clone https://github.com/tecaxcrypto/sentinel.git && cd sentinel
+    $ git clone https://github.com/nseritti/sentinel-zalias.git && cd sentinel-zalias
     $ virtualenv ./venv
     $ ./venv/bin/pip install -r requirements.txt
 
@@ -53,9 +53,9 @@ With all tests passing and crontab setup, Sentinel will stay in sync with dashd 
 
 ## Configuration
 
-An alternative (non-default) path to the `tecax.conf` file can be specified in `sentinel.conf`:
+An alternative (non-default) path to the `zalias.conf` file can be specified in `sentinel.conf`:
 
-    tecax_conf=/path/to/tecax.conf
+    zalias_conf=/path/to/zalias.conf
 
 ## Troubleshooting
 
