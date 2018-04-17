@@ -11,7 +11,7 @@ class DashConfig():
 
     @classmethod
     def slurp_config_file(self, filename):
-        # read race.conf config but skip commented lines
+        # read zalias.conf config but skip commented lines
         f = io.open(filename)
         lines = []
         for line in f:
@@ -20,27 +20,27 @@ class DashConfig():
             lines.append(line)
         f.close()
 
-        # data is race.conf without commented lines
+        # data is zalias.conf without commented lines
         data = ''.join(lines)
 
         return data
 
     @classmethod
     def get_rpc_creds(self, data, network='mainnet'):
-        # get rpc info from race.conf
+        # get rpc info from zalias.conf
         match = re.findall(r'rpc(user|password|port)=(.*?)$', data, re.MULTILINE)
 
         # python >= 2.7
         creds = {key: value for (key, value) in match}
 
         # standard Dash defaults...
-        default_port = 8801 if (network == 'mainnet') else 18801
+        default_port = 7382 if (network == 'mainnet') else 17382
 
-        # use default port for network if not specified in race.conf
+        # use default port for network if not specified in zalias.conf
         if not ('port' in creds):
             creds[u'port'] = default_port
 
-        # convert to an int if taken from race.conf
+        # convert to an int if taken from zalias.conf
         creds[u'port'] = int(creds[u'port'])
 
         # return a dictionary with RPC credential key, value pairs

@@ -1,9 +1,9 @@
 #!/bin/bash
 set -evx
 
-mkdir ~/.racecore
+mkdir ~/.zaliascore
 
 # safety check
-if [ ! -f ~/.racecore/.race.conf ]; then
-  cp share/race.conf.example ~/.racecore/race.conf
+if [ ! -f ~/.zaliascore/.zalias.conf ]; then
+  cp share/zalias.conf.example ~/.zaliascore/zalias.conf
 fi

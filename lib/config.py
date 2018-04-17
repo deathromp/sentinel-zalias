@@ -17,11 +17,11 @@ min_dashd_proto_version_with_sentinel_ping = 70207
 def get_dash_conf():
     home = os.environ.get('HOME')
 
-    dash_conf = os.path.join(home, ".racecore/race.conf")
+    dash_conf = os.path.join(home, ".zaliascore/zalias.conf")
     if sys.platform == 'darwin':
-        dash_conf = os.path.join(home, "Library/Application Support/RaceCore/race.conf")
+        dash_conf = os.path.join(home, "Library/Application Support/ZaliasCore/zalias.conf")
 
-    dash_conf = sentinel_cfg.get('race_conf', dash_conf)
+    dash_conf = sentinel_cfg.get('zalias.conf', dash_conf)
 
     return dash_conf
 

@@ -59,7 +59,7 @@ def test_get_rpc_creds():
         assert key in creds
     assert creds.get('user') == 'dashrpc'
     assert creds.get('password') == 'EwJeV3fZTyTVozdECF627BkBMnNDwQaVLakG3A4wXYyk'
-    assert creds.get('port') == 18801
+    assert creds.get('port') == 17382 
 
 
 # ensure dash network (mainnet, testnet) matches that specified in config
