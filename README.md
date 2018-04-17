@@ -1,7 +1,7 @@
 # Zalias Sentinel
 I got seriously sick of MN in WATCHDOG_EXPIRED status, what you get is mostly copypasta from racecrypto/sentinel, but it seems to work well enough.
 
-If you're happy with this, feel free to donate: TAZZ4RGx5pxAERJYgQj8pt8M2xyy7oyJjm
+If you're happy with this, feel free to donate: ZEJmjuBSSe65jF2JPdV5Vf6QjiSRxVy1RJ
 
 ## About 
 An all-powerful toolset & watchdog daemon for Zalias.
