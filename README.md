@@ -23,13 +23,13 @@ Make sure Python version 2.7.x or above is installed:
 Update system packages and ensure virtualenv is installed:
 
     $ sudo apt-get update
-    $ sudo apt-get -y install python-virtualenv
+    $ sudo apt-get -y install virtualenv
 
 ### 2. Install Sentinel
 
 Clone the Sentinel repo and install Python dependencies.
 
-    $ git clone https://github.com/nseritti/sentinel-zalias.git && cd sentinel-zalias
+    $ git clone https://github.com/deathromp/sentinel-zalias.git && cd sentinel-zalias
     $ virtualenv ./venv
     $ ./venv/bin/pip install -r requirements.txt
 
@@ -41,15 +41,8 @@ Set up a crontab entry to call Sentinel every minute:
 
 In the crontab editor, add the lines below, replacing '/home/YOURUSERNAME/sentinel' to the path where you cloned sentinel to:
 
-    * * * * * cd /home/YOURUSERNAME/sentinel-zalias && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
+    * * * * * cd /home/YOURUSERNAME/.zaliascore/sentinel-zalias && ./venv/bin/python bin/sentinel.py >/dev/null 2>&1
 
-### 4. Test the Configuration
-
-Test the config by runnings all tests from the sentinel folder you cloned into
-
-    $ ./venv/bin/py.test ./test
-
-With all tests passing and crontab setup, Sentinel will stay in sync with dashd and the installation is complete
 
 ## Configuration
 
